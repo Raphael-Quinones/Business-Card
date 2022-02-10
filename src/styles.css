@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*Container*/
+.container {
+    background: #23252C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 100px;
+}
+
+/*Business Card */
+.businessCard {
+    background: #1A1B21;
+    border-radius:20px;
+}
+
+    /*My Info*/
+/*My Picture */
+.myPicture {
+    height: 317px;
+    border-radius: 20px;
+}
+
+/*Name*/
+.info--name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    padding-top: 31px;
+}
+
+/*subtitle*/
+.info--subtitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+
+    padding-top: 7px;
+}
+
+/*website*/
+.info--website{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    align-items: center;
+    
+    display: block;
+    text-align: center;
+    padding-top: 9px;
+    
+    color: #F5F5F5;
+    
+}
+
+    /*Buttons*/
+.info--buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 17px;
+}
+
+
+
+.info--buttons--email{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+
+    padding: 9px 13px 9px 11px;
+
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    text-align: center;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    /* gray/700 */
+
+    color: #374151;
+
+
+}
+
+.info--buttons--linkedin{
+    padding: 9px 13px 9px 11px;
+
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+
+    /* white */
+
+    background: #5093E2;
+    /* gray/300 */
+
+    box-sizing: border-box;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    text-align: center;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    /* gray/700 */
+
+    color: white;
+}
+
+
+    /*About*/
+
+.about, .interests {
+    width: 247px;
+    padding-top: 31px;
+    padding-left: 36px;
+    padding-right:36px;
+}
+
+.about--title, .interests--title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+.about--subtitle, .interests--subtitle{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    
+    
+    color: #DCDCDC;
+}
+
+.interests--subtitle{
+    padding-bottom: 24px;
+}
+
+/*Footer*/
+.footer{
+    display: flex;
+    background:black;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 24px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
